@@ -13,7 +13,7 @@
         android:theme="@style/Theme.R3">
         <activity
             android:name=".calculadora_semanal"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
