@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">r3</string>
     <string name="TXT1">¡Bienvenido!</string>
-    <string name="txt2"></string>
+    <string name="txt2">Recuerda cuidar el</string>
+    <string name="txt3">ambiente</string>
 
 </resources>

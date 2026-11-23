@@ -24,9 +24,9 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="68dp"
         android:fontFamily="@font/lobster"
-        android:text="¡Bienvenido!"
+        android:text="@string/TXT1"
         android:textColor="#4CAF50"
-        android:textSize="28dp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:fontFamily="sans-serif"
-        android:text="Recuerda cuidar el "
+        android:text="@string/txt2"
         android:textColor="#4CAF50"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:text="ambiente"
+        android:text="@string/txt3"
         android:textColor="#4CAF50"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +59,7 @@
         android:layout_height="97dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="28dp"
+        android:contentDescription="@null"
         app:layout_constraintBottom_toTopOf="@+id/searchView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -72,11 +73,89 @@
         android:layout_width="349dp"
         android:layout_height="124dp"
         android:layout_marginTop="4dp"
+        android:contentDescription="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView"
         app:layout_constraintVertical_bias="0.019"
         app:srcCompat="@drawable/img2" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="681dp"
+        android:background="#FFFFFF"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:src="@drawable/calculadora" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculadora"
+                android:textSize="9sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/inicio"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:textSize="9sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculadora Semanal"
+                android:textSize="9sp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
