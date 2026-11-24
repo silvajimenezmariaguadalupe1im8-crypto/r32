@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R3">
         <activity
+            android:name=".Art1"
+            android:exported="true" />
+        <activity
             android:name=".calculadora_semanal"
             android:exported="true" />
         <activity

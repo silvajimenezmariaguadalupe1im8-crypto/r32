@@ -34,6 +34,8 @@
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:src="@drawable/regresar" />
 
                 <TextView
@@ -70,7 +72,7 @@
                         android:orientation="vertical"
                         android:paddingTop="55dp"
                         android:paddingHorizontal="24dp"
-                        android:paddingBottom="600dp">
+                        android:paddingBottom="450dp">
 
                         <TextView
                             android:id="@+id/textView3"
@@ -783,6 +785,7 @@
                             android:layout_height="50dp"
                             android:textAlignment="center"
                             android:layout_marginLeft="100dp"
+                            android:onClick="opciones"
                             android:text="Calcular"/>
 
                     </LinearLayout>

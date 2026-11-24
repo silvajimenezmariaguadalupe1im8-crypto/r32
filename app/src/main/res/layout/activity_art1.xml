@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Art1"
+    android:background="#E3FFBF">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/barrainferior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/reg"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/regresar" />
+                <TextView
+                    android:id="@+id/tvTituloPantallaArt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="16"
+                    android:gravity="center"
+                    android:text="Artículos"
+                    android:textColor="#111111"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="11dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginTop="175dp"
+                    android:layout_marginBottom="-60dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="65dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="90dp"
+                        android:paddingHorizontal="24dp"
+                        android:paddingBottom="450dp">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="¿Qué es el CO2 y en que afecta? "
+                            android:textSize="20dp"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="324dp"
+                            android:layout_height="723dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="El CO2 es un gas de efecto invernadero que atrapa el calor en la atmósfera terrestre. Esto crea el llamado efecto invernadero, que es esencial para mantener las condiciones adecuadas para la vida en nuestro planeta. Sin embargo, las actividades humanas, como la quema de combustibles fósiles y la deforestación, han aumentado los niveles de CO2 en la atmósfera a un ritmo alarmante. Este aumento excesivo de CO2 está provocando un calentamiento global y cambios drásticos en nuestro clima. &#xA;La concentración de dióxido de carbono en la atmósfera supera actualmente las 420 partes por millón (ppm). Este es el nivel más alto en al menos 800.000 años según registros paleoclimáticos. &#xA;En los últimos 800.000 años, la concentración de CO2 en la atmósfera fluctuó entre las 170 y 330 partes por millón (niveles muy aceptables para la sostenibilidad del planeta), pero desde los últimos 170 años, y de forma enormemente acelerada en las tres últimas décadas, se ha disparado hasta unos valores que alcanzan en la actualidad 420 partes por millón &#xA;Las emisiones de CO2 se han multiplicado y tienen consecuencias. Es un gas que contribuye al calentamiento del planeta aunque no sea el único. También otros gases naturales (metano, óxido nitroso) o artificiales (gases fluorados) forman parte de los tan mentados gases de efecto invernadero (GEI). De hecho, su aumento en la atmósfera es lo que desencadena el cambio climático, la crisis climática o la emergencia climática. Son tres términos muy cercanos que se utilizan para describir el calentamiento global que sufre la Tierra.&#xA;Las estadísticas oficiales confirman que no han bajado las emisiones de CO2 durante los últimos años (exceptuando los meses de confinamientos y la caída drástica de la actividad en muchos países debido a la pandemia).&#xA;Si la sociedad no rebaja sus índices de emisiones de CO2 a la atmósfera, los informes científicos auguran múltiples riesgos e impactos. Por ejemplo, problemas de abastecimiento por el colapso de las cosechas, disminución del agua potable (por primera vez en la historia cotiza en el mercado de futuros, como si fuera oro o trigo), subidas del nivel del mar, extinción de especies, la desaparición de ecosistemas enteros (sobre todo los más frágiles como los arrecifes de coral), el aumento de sequías, huracanes o tifones, migraciones masivas por causas climáticas y geopolíticas asociadas.Crece la fragilidad de los ecosistemas y muchos futuros problemas ni siquiera son predecibles hoy. &#xA;Las consecuencias en un futuro no tan lejano podrían ser enormes, y en algunos lugares catastróficas, a no ser que se produzca una reducción drástica en la década que hemos empezado este año por lo tanto es importante ser consciente sobre el uso de energía en nuestros hogares y lugares de trabajo también contribuye a las emisiones de CO2. Para reducir nuestro impacto ambiental, es importante adoptar prácticas energéticamente eficientes.&#xA;Una forma sencilla de hacerlo es apagar los electrodomésticos cuando no los estamos utilizando. Muchos dispositivos continúan consumiendo energía incluso en modo de espera, por lo que es importante desconectarse por completo. También podemos utilizar bombillas LED en lugar de las tradicionales, ya que son más eficientes en términos de consumo de energía y duran más tiempo.&#xA;Además, asegurarse de que nuestras viviendas y lugares de trabajo estén bien aislados puede ayudar a reducir la pérdida de energía. Esto implica sellar ventanas y puertas para evitar fugas de calor o frío, y utilizar cortinas o persianas para regular la temperatura interior.&#xA;Por último, es importante utilizar electrodomésticos y equipos de oficina energéticamente eficientes. Esto se refiere a aquellos que tienen una calificación de eficiencia energética alta y utilizan menos energía para realizar las mismas tareas que los modelos menos eficientes. Al elegir nuevos electrodomésticos o equipos, es importante buscar la etiqueta de eficiencia energética y optar por los modelos más eficientes disponibles."
+                            android:textSize="12sp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/imageViewim"
+                    android:layout_width="130dp"
+                    android:layout_height="188dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/carbono" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/barrainferior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/calculadora"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imcalculadora"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/calculadora" />
+
+            <TextView
+                android:id="@+id/textviewCal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Calculadora"
+                android:textColor="#111111"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iminicio"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/inicio" />
+
+            <TextView
+                android:id="@+id/textviewinicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Inicio"
+                android:textColor="#111111"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/calendario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imcalendario"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="Calendario"
+                android:src="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/textviewCalendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Calculadora semanal"
+                android:textColor="#111111"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

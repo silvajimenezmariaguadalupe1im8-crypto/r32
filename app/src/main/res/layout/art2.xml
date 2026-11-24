@@ -153,9 +153,7 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
-        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_height="91dp"
         android:layout_marginTop="8dp"
         android:text="Ambos aparatos son pequeños y el secador de cabello se utiliza solamente durante periodos cortos, pero en realidad, el secador de cabello consume mucha más electricidad. Por ejemplo, necesitarías hacer funcionar tu ventilador de techo durante más de 20 horas para consumir la misma cantidad de electricidad que el secador de cabello consume en solo unos pocos minutos"
         android:textSize="12dp"
@@ -195,7 +193,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:srcCompat="@drawable/captura_de_pantalla_2026_11_17_124042" />
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewa"
         android:layout_width="387dp"
         android:layout_height="95dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -204,11 +202,9 @@
         app:srcCompat="@drawable/captura_de_pantalla_2026_11_17_124042" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewb"
         android:layout_width="wrap_content"
-        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_height="91dp"
         android:text="Algunos aparatos pequeños que consumen una gran cantidad de electricidad son la plancha y el microondas. Esto se debe a la gran cantidad de energía necesaria para generar calor. Aunque el consumo de electricidad de estos dos artículos es similar, el microondas consume más electricidad, ya que utiliza ondas de radio de alta frecuencia para calentar las moléculas de agua."
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
