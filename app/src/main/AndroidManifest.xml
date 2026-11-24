@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R3">
         <activity
+            android:name=".Articulo4"
+            android:exported="false" />
+        <activity
             android:name=".Art1"
             android:exported="true" />
         <activity
