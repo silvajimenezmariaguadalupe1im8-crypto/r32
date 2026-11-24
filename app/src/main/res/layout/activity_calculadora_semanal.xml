@@ -29,7 +29,7 @@
                 android:paddingHorizontal="16dp">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/reg"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
@@ -766,8 +766,24 @@
                             android:text="Consumo de energía apróximado:"
                             android:textAlignment="center"
                             android:layout_marginTop="127dp"
-                            android:layout_marginBottom="30dp"
+                            android:layout_marginBottom="25dp"
                             android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/textViewCantEnergia"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="🌱"
+                            android:layout_marginBottom="30dp"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/calcularS"
+                            android:layout_width="130dp"
+                            android:layout_height="50dp"
+                            android:textAlignment="center"
+                            android:layout_marginLeft="100dp"
+                            android:text="Calcular"/>
 
                     </LinearLayout>
 
