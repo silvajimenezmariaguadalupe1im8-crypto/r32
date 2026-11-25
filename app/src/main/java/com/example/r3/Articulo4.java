@@ -1,6 +1,8 @@
 package com.example.r3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,18 @@ public class Articulo4 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
-}
+    public void pantalla_principal (View view){
+
+        Intent pp = new Intent(this, MainActivity.class);
+        startActivity(pp);
+    }
+
+    public void calc_sem (View view){
+
+        Intent cs = new Intent(this, calculadora_semanal.class);
+        startActivity(cs);
+
+    }
+    }
