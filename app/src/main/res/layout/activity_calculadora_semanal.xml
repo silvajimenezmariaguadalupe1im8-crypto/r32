@@ -886,7 +886,6 @@
                 android:id="@+id/imcalendario"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:contentDescription="Calendario"
                 android:src="@drawable/calendario" />
 
             <TextView

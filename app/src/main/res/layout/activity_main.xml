@@ -8,130 +8,40 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:id="@+id/scrollViewPrincipal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:fillViewport="true"
         android:layout_weight="1"
         tools:ignore="MissingConstraints">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="49dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <LinearLayout
-            android:layout_width="134dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                android:src="@drawable/calculadora" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Calculadora"
-                android:textSize="9sp"
-                android:gravity="center"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="135dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                android:src="@drawable/inicio" />
-
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Inicio"
-                android:textSize="9sp"
-                android:gravity="center"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="134dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                android:src="@drawable/calendario" />
-
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Calendario semanal"
-                android:textSize="9sp"
-                android:gravity="center"/>
-        </LinearLayout>
-
-
-
-
-    </LinearLayout>
-
-    <ScrollView
-        android:id="@+id/scrollView222"
-        android:layout_width="408dp"
-        android:layout_height="728dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingHorizontal="24dp"
-            android:paddingBottom="300dp">
+            android:paddingHorizontal="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="224dp"
-                    android:layout_marginTop="-40dp"
-                    android:layout_marginBottom="-30dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/bienvendi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="68dp"
                         android:fontFamily="@font/lobster"
-                        android:text="@string/TXT1"
+                        android:text="¡Bienvenido!"
                         android:textColor="#4CAF50"
                         android:textSize="30sp" />
 
@@ -139,9 +49,9 @@
                         android:id="@+id/recuerda"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="6dp"
                         android:fontFamily="sans-serif"
-                        android:text="@string/txt2"
+                        android:text="Recuerda cuidar el"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
 
@@ -149,180 +59,252 @@
                         android:id="@+id/ambiente"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/txt3"
+                        android:fontFamily="sans-serif"
+                        android:text="ambiente"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
-
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:layout_marginTop="-20dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/imageView17"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/img1" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="149dp"
-                    android:layout_weight="1"
-                    android:layout_marginBottom="30dp"
-                    android:src="@drawable/img2" />
+                    android:id="@+id/imageView17"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img1" />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+            <!-- Banner central -->
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img2" />
 
+            <!-- Título de sección de artículos -->
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Artículos que pueden ser de tu interés..."
+                android:textColor="#4CAF12"
+                android:textSize="22sp" />
+
+            <!-- Fila 1 de artículos: CO2 vs Electrodomésticos -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- Columna izquierda -->
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingEnd="8dp">
 
                     <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="cursive"
+                        android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:layout_marginBottom="30dp"
-                        android:text="Artículos que pueden ser de tu intéres..."
-                        android:textColor="#4CAF12"
-                        android:textSize="22sp" />
+                        android:text="¿Qué es el CO2 y en qué afecta?"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewco"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/co2" />
                 </LinearLayout>
 
+                <!-- Columna derecha -->
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:orientation="horizontal">
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="8dp">
 
-                    <LinearLayout
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:text="Electrodomésticos vs aparatos electrónicos"
+                        android:textSize="13sp" />
 
-                        <TextView
-                            android:id="@+id/textView33"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="¿Qué es el CO2 y en qué afecta?" />
-                    </LinearLayout>
+                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                    <ImageView
+                        android:id="@+id/imageViewArticulo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#E8F5E9"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+            </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
+            <!-- Fila 2 de artículos: Consumismo vs Energía -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <!-- Columna izquierda -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingEnd="8dp">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:text="¿Cuándo se que es consumismo?"
+                        android:textSize="13sp" />
 
-                        <TextView
-                            android:id="@+id/textView34"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="Electrodomésticos vs aparatos electrónicos" />
-                    </LinearLayout>
+                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                    <ImageView
+                        android:id="@+id/imageViewArticulo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#E8F5E9"
+                        android:scaleType="centerCrop" />
                 </LinearLayout>
 
+                <!-- Columna derecha -->
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:orientation="horizontal">
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="8dp">
 
-                    <LinearLayout
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Sobre la energía"
+                        android:textSize="13sp" />
 
-                        <ImageView
-                            android:id="@+id/imageView14"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:src="@drawable/co2" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="165dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"></LinearLayout>
+                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                    <ImageView
+                        android:id="@+id/imageViewArticulo4"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="#E8F5E9"
+                        android:scaleType="centerCrop" />
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView35"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="¿Cuándo se que es consumismo?" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="201dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView36"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="Sobre la energía " />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"></LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="201dp"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"></LinearLayout>
-                </LinearLayout>
-
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
+
+    <!-- Barra inferior fija con 3 secciones iguales -->
+    <LinearLayout
+        android:id="@+id/barraInferior"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btnNavCalculadora"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/calculadora" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Calculadora"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnNavInicio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/inicio" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Inicio"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnNavCalendario"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="@string/txt31"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
 
 
 
