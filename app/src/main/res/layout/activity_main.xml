@@ -9,11 +9,12 @@
 
     <ScrollView
         android:id="@+id/scrollViewPrincipal"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:fillViewport="true"
-        android:layout_weight="1"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/barraInferior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,6 +23,7 @@
             android:paddingHorizontal="20dp"
             android:paddingTop="24dp"
             android:paddingBottom="24dp">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -41,7 +43,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/lobster"
-                        android:text="¡Bienvenido!"
+                        android:text="@string/TXT1"
                         android:textColor="#4CAF50"
                         android:textSize="30sp" />
 
@@ -51,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:fontFamily="sans-serif"
-                        android:text="Recuerda cuidar el"
+                        android:text="@string/txt2"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
 
@@ -60,7 +62,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
-                        android:text="ambiente"
+                        android:text="@string/txt3"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -73,7 +75,7 @@
                     android:src="@drawable/img1" />
             </LinearLayout>
 
-            <!-- Banner central -->
+
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
@@ -82,7 +84,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/img2" />
 
-            <!-- Título de sección de artículos -->
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
@@ -90,131 +91,171 @@
                 android:layout_marginBottom="16dp"
                 android:fontFamily="cursive"
                 android:gravity="center"
-                android:text="Artículos que pueden ser de tu interés..."
+                android:text="@string/txt35"
                 android:textColor="#4CAF12"
                 android:textSize="22sp" />
 
-            <!-- Fila 1 de artículos: CO2 vs Electrodomésticos -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="16dp">
 
-                <!-- Columna izquierda -->
-                <LinearLayout
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardArticulo1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:paddingEnd="8dp">
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
-                    <TextView
-                        android:id="@+id/textView33"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:gravity="center"
-                        android:text="¿Qué es el CO2 y en qué afecta?"
-                        android:textSize="13sp" />
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
-                    <ImageView
-                        android:id="@+id/imageViewco"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/co2" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="@string/txt33"
+                            android:textSize="13sp" />
 
-                <!-- Columna derecha -->
-                <LinearLayout
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/co2" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Tarjeta 2: Electrodomésticos vs aparatos electrónicos -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardArticulo2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:paddingStart="8dp">
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
-                    <TextView
-                        android:id="@+id/textView34"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:gravity="center"
-                        android:text="Electrodomésticos vs aparatos electrónicos"
-                        android:textSize="13sp" />
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
-                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
-                    <ImageView
-                        android:id="@+id/imageViewArticulo2"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:background="#E8F5E9"
-                        android:scaleType="centerCrop" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="Electrodomésticos vs aparatos electrónicos"
+                            android:textSize="13sp" />
+
+                        <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                        <ImageView
+                            android:id="@+id/imageViewArticulo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:background="#E8F5E9"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
-            <!-- Fila 2 de artículos: Consumismo vs Energía -->
+            <!-- Fila 2 de artículos con CardView -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="12dp">
 
-                <!-- Columna izquierda -->
-                <LinearLayout
+                <!-- Tarjeta 3: Consumismo -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardArticulo3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:paddingEnd="8dp">
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
-                    <TextView
-                        android:id="@+id/textView35"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:gravity="center"
-                        android:text="¿Cuándo se que es consumismo?"
-                        android:textSize="13sp" />
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
-                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
-                    <ImageView
-                        android:id="@+id/imageViewArticulo3"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:background="#E8F5E9"
-                        android:scaleType="centerCrop" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="¿Cuándo se que es consumismo?"
+                            android:textSize="13sp" />
 
-                <!-- Columna derecha -->
-                <LinearLayout
+                        <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                        <ImageView
+                            android:id="@+id/imageViewArticulo3"
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:background="#E8F5E9"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Tarjeta 4: Sobre la energía -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardArticulo4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:paddingStart="8dp">
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
-                    <TextView
-                        android:id="@+id/textView36"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:gravity="center"
-                        android:text="Sobre la energía"
-                        android:textSize="13sp" />
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
-                    <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
-                    <ImageView
-                        android:id="@+id/imageViewArticulo4"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:background="#E8F5E9"
-                        android:scaleType="centerCrop" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textViewArticulo4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="Sobre la energía"
+                            android:textSize="13sp" />
+
+                        <!-- Aquí pondrás tu imagen cuando la agregues a drawable -->
+                        <ImageView
+                            android:id="@+id/imageViewArticulo4"
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:background="#E8F5E9"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
         </LinearLayout>
@@ -301,11 +342,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:gravity="center"
-                android:text="@string/txt31"
-                android:textSize="10dp" />
+                android:text="Calendario semanal"
+                android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
