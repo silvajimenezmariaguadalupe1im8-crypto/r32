@@ -109,6 +109,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="224dp"
+                    android:layout_marginTop="-40dp"
+                    android:layout_marginBottom="-30dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -147,6 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:layout_marginTop="-20dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -168,6 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="149dp"
                     android:layout_weight="1"
+                    android:layout_marginBottom="30dp"
                     android:src="@drawable/img2" />
             </LinearLayout>
 
@@ -188,6 +192,7 @@
                         android:layout_weight="1"
                         android:fontFamily="cursive"
                         android:gravity="center"
+                        android:layout_marginBottom="30dp"
                         android:text="Artículos que pueden ser de tu intéres..."
                         android:textColor="#4CAF12"
                         android:textSize="22sp" />
