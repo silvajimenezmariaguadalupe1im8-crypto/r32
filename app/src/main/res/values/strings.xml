@@ -3,5 +3,10 @@
     <string name="TXT1">¡Bienvenido!</string>
     <string name="txt2">Recuerda cuidar el</string>
     <string name="txt3">ambiente</string>
+    <string name="verde1">#4CAF50</string>
+    <string name="verde2">#4CAF12</string>
+    <string name="verde3">#E3FFBF</string>
+    <string name="recom_txt">Artículos que pueden ser de tu intéres...</string>
+
 
 </resources>
