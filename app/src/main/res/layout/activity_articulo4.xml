@@ -134,8 +134,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -170,6 +168,9 @@
                 android:id="@+id/iminicio"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="pantalla_principal"
                 android:src="@drawable/inicio" />
 
             <TextView
@@ -197,6 +198,9 @@
                 android:id="@+id/imcalendario"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
+                android:onClick="calc_sem"
+                android:clickable="true"
+                android:focusable="true"
                 android:contentDescription="Calendario"
                 android:src="@drawable/calendario" />
 
