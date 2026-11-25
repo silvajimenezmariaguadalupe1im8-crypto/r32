@@ -3,5 +3,71 @@
     <string name="TXT1">¡Bienvenido!</string>
     <string name="txt2">Recuerda cuidar el</string>
     <string name="txt3">ambiente</string>
+    <string name="txt4">Calculadora semanal</string> //Fer
+    <string name="txt5">¿Cuánta energía gasté?</string> //Fer
+    <string name="txt6">¿Qué dispositivos usaste esta semana?</string> //Fer
+    <string name="txt7">Computadora</string> //Fer
+    <string name="txt8">Celular</string> //Fer
+    <string name="txt9">Televisión</string> //Fer
+    <string name="txt10">Lavadora</string> //Fer
+    <string name="txt11">Microondas</string> //Fer
+    <string name="txt12">Cafetera</string> //Fer
+    <string name="txt13">Horno</string> //Fer
+    <string name="txt14">Nintendo Switch</string> //Fer
+    <string name="txt15">PLaystation</string> //Fer
+    <string name="txt16">Xbox</string> //Fer
+    <string name="txt17">Secadora</string> //Fer
+    <string name="txt18">Freidora de aire</string> //Fer
+    <string name="txt19">Impresora</string> //Fer
+    <string name="txt20">Plancha</string> //Fer
+    <string name="txt21">Refrigerador</string> //Fer
+    <string name="txt22">Licuadora</string> //Fer
+    <string name="txt23">Batidora</string> //Fer
+    <string name="txt24">Recuerda</string> //Fer
 
+    <string name="txt25">Los cálculos presentados aquí NO son exactos, son solamente aproximaciones. En el caso de dispositivos como la lavadora,
+        el microondas, cafetera, horno, secadora, freidora, impresora, plancha, licuadora y batidora; los cálculos son tomados por 2hrs de uso a
+        la semana. El resto es cálculado por uso de 10hrs a la semana. Puede que consumas menos o incluso más de lo que se presenta aquí.</string> //Fer
+
+    <string name="txt26">Consumo de energía apróximado:</string> //Fer
+    <string name="txt27">🌱</string> //Fer
+    <string name="txt28">Calcular</string> //Fer
+    <string name="txt29">Calculadora</string> //Fer ................................................
+    <string name="txt30">Inicio</string> //Fer .....................................................
+    <string name="txt31">Calculadora semanal</string> //Fer ........................................
+    <string name="txt32">Artículos</string> //Antto
+    <string name="txt33">¿Qué es el CO2 y en qué afecta?</string> //Antto
+    <string name="txt34">El CO2 es un gas de efecto invernadero que atrapa el calor en la atmósfera terrestre.
+        Esto crea el llamado efecto invernadero, que es esencial para mantener las condiciones adecuadas para
+        la vida en nuestro planeta. Sin embargo, las actividades humanas, como la quema de combustibles fósiles
+        y la deforestación, han aumentado los niveles de CO2 en la atmósfera a un ritmo alarmante.
+        Este aumento excesivo de CO2 está provocando un calentamiento global y cambios drásticos en nuestro clima.\n\nLa concentración de dióxido de carbono en la atmósfera supera actualmente las 420 partes por millón (ppm).
+        Este es el nivel más alto en al menos 800.000 años según registros paleoclimáticos. &#xA;En los últimos 800.000
+        años, la concentración de CO2 en la atmósfera fluctuó entre las 170 y 330 partes por millón (niveles muy aceptables
+        para la sostenibilidad del planeta), pero desde los últimos 170 años, y de forma enormemente acelerada en las tres
+        últimas décadas, se ha disparado hasta unos valores que alcanzan en la actualidad 420 partes por millón.\n\nLas
+        emisiones de CO2 se han multiplicado y tienen consecuencias. Es un gas que contribuye al calentamiento del
+        planeta aunque no sea el único. También otros gases naturales (metano, óxido nitroso) o artificiales (gases fluorados)
+        forman parte de los tan mentados gases de efecto invernadero (GEI). De hecho, su aumento en la atmósfera es lo que
+        desencadena el cambio climático, la crisis climática o la emergencia climática. Son tres términos muy cercanos que se
+        utilizan para describir el calentamiento global que sufre la Tierra.\n\nLas estadísticas oficiales confirman que no han
+        bajado las emisiones de CO2 durante los últimos años (exceptuando los meses de confinamientos y la caída drástica de la
+        actividad en muchos países debido a la pandemia).\n\nSi la sociedad no rebaja sus índices de emisiones de CO2 a la
+        atmósfera, los informes científicos auguran múltiples riesgos e impactos. Por ejemplo, problemas de abastecimiento por el
+        colapso de las cosechas, disminución del agua potable (por primera vez en la historia cotiza en el mercado de futuros, como
+        si fuera oro o trigo), subidas del nivel del mar, extinción de especies, la desaparición de ecosistemas enteros (sobre todo
+        los más frágiles como los arrecifes de coral), el aumento de sequías, huracanes o tifones, migraciones masivas por causas
+        climáticas y geopolíticas asociadas.Crece la fragilidad de los ecosistemas y muchos futuros problemas ni siquiera son
+        predecibles hoy.\n\nLas consecuencias en un futuro no tan lejano podrían ser enormes, y en algunos lugares catastróficas,
+        a no ser que se produzca una reducción drástica en la década que hemos empezado este año por lo tanto es importante ser
+        consciente sobre el uso de energía en nuestros hogares y lugares de trabajo también contribuye a las emisiones de CO2.
+        Para reducir nuestro impacto ambiental, es importante adoptar prácticas energéticamente eficientes.&#xA;Una forma sencilla
+        de hacerlo es apagar los electrodomésticos cuando no los estamos utilizando. Muchos dispositivos continúan consumiendo energía
+        incluso en modo de espera, por lo que es importante desconectarse por completo. También podemos utilizar bombillas LED en lugar
+        de las tradicionales, ya que son más eficientes en términos de consumo de energía y duran más tiempo.\n\nAdemás, asegurarse de
+        que nuestras viviendas y lugares de trabajo estén bien aislados puede ayudar a reducir la pérdida de energía. Esto implica sellar
+        ventanas y puertas para evitar fugas de calor o frío, y utilizar cortinas o persianas para regular la temperatura interior.\n\nPor último, es importante utilizar electrodomésticos y equipos de oficina energéticamente eficientes. Esto se refiere a aquellos
+        que tienen una calificación de eficiencia energética alta y utilizan menos energía para realizar las mismas tareas que los modelos
+        menos eficientes. Al elegir nuevos electrodomésticos o equipos, es importante buscar la etiqueta de eficiencia energética y optar
+        por los modelos más eficientes disponibles.\n\n\n\n\n\n<br/>Fuente:<br/> BBVA, (s.f.). Dióxido de carbono (CO2): qué es y por qué preocupa. BBVA.</string> //Antto
 </resources>
