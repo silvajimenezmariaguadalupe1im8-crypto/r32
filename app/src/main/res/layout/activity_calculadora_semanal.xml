@@ -43,7 +43,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="16"
-                    android:text="Calculadora semanal"
+                    android:text="@string/txt4"
                     android:gravity="center"
                     android:textSize="20sp"
                     android:layout_marginEnd="30dp"
@@ -78,7 +78,7 @@
                             android:id="@+id/textView3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="¿Cuánta energía gasté?"
+                            android:text="@string/txt5"
                             android:textAlignment="center"
                             android:textSize="20dp" />
 
@@ -86,7 +86,7 @@
                             android:id="@+id/textView4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="¿Qué dispositivos usaste esta semana?"
+                            android:text="@string/txt6"
                             android:textAlignment="center"
                             android:layout_marginTop="30dp"
                             android:layout_marginBottom="30dp"
@@ -108,14 +108,13 @@
                                 android:layout_height="25dp"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginStart="5dp"
-                                android:contentDescription="Computadora"
                                 android:src="@drawable/com"/>
 
                             <TextView
                                 android:id="@+id/textView5"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Computadora"
+                                android:text="@string/txt7"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -148,14 +147,13 @@
                                 android:layout_height="25dp"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginStart="5dp"
-                                android:contentDescription="telefono"
                                 android:src="@drawable/telefono"/>
 
                             <TextView
                                 android:id="@+id/textView6"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Celular"
+                                android:text="@string/txt8"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -193,7 +191,7 @@
                                 android:id="@+id/textView7"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Televisión"
+                                android:text="@string/txt9"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -231,7 +229,7 @@
                                 android:id="@+id/textView8"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Lavadora"
+                                android:text="@string/txt10"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -269,7 +267,7 @@
                                 android:id="@+id/textView9"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Microondas"
+                                android:text="@string/txt11"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -307,7 +305,7 @@
                                 android:id="@+id/textView10"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Cafetera"
+                                android:text="@string/txt12"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -345,7 +343,7 @@
                                 android:id="@+id/textView11"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Horno"
+                                android:text="@string/txt13"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -383,7 +381,7 @@
                                 android:id="@+id/textView12"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Nintendo Switch"
+                                android:text="@string/txt14"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -421,7 +419,7 @@
                                 android:id="@+id/textView13"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Playstation"
+                                android:text="@string/txt15"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -459,7 +457,7 @@
                                 android:id="@+id/textView14"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Xbox"
+                                android:text="@string/txt16"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -497,7 +495,7 @@
                                 android:id="@+id/textView18"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Secadora"
+                                android:text="@string/txt17"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -535,7 +533,7 @@
                                 android:id="@+id/textView20"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Freidora de aire"
+                                android:text="@string/txt18"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -573,7 +571,7 @@
                                 android:id="@+id/textView22"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Impresora"
+                                android:text="@string/txt19"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -611,7 +609,7 @@
                                 android:id="@+id/textView23"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Plancha"
+                                android:text="@string/txt20"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -649,7 +647,7 @@
                                 android:id="@+id/textView24"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Refrigerador"
+                                android:text="@string/txt21"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -687,7 +685,7 @@
                                 android:id="@+id/textView25"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Licuadora"
+                                android:text="@string/txt22"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -725,7 +723,7 @@
                                 android:id="@+id/textView26"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Batidora"
+                                android:text="@string/txt23"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
                                 android:textSize="13dp" />
@@ -745,7 +743,7 @@
                             android:id="@+id/textView15"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Recuerda"
+                            android:text="@string/txt24"
                             android:textAlignment="center"
                             android:layout_marginTop="70dp"
                             android:layout_marginBottom="10dp"
@@ -755,7 +753,7 @@
                             android:id="@+id/textView16"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Los cálculos presentados aquí NO son exactos, son solamente aproximaciones (cada dispositivo es calculado por 3 horas de uso a la semana). Puede que consumas menos o incluso más de lo que se presenta aquí."
+                            android:text="@string/txt25"
                             android:textAlignment="center"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="30dp"
@@ -765,7 +763,7 @@
                             android:id="@+id/textView27"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Consumo de energía apróximado:"
+                            android:text="@string/txt26"
                             android:textAlignment="center"
                             android:layout_marginTop="127dp"
                             android:layout_marginBottom="25dp"
@@ -775,7 +773,7 @@
                             android:id="@+id/textViewCantEnergia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="🌱"
+                            android:hint="@string/txt27"
                             android:layout_marginBottom="30dp"
                             android:textAlignment="center"/>
 
@@ -786,7 +784,7 @@
                             android:textAlignment="center"
                             android:layout_marginLeft="100dp"
                             android:onClick="opciones"
-                            android:text="Calcular"/>
+                            android:text="@string/txt28"/>
 
                     </LinearLayout>
 
@@ -839,7 +837,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Calculadora"
+                android:text="@string/txt29"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 
@@ -866,7 +864,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Inicio"
+                android:text="@string/txt30"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 
@@ -894,7 +892,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Calculadora semanal"
+                android:text="@string/txt31"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 

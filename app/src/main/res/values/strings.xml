@@ -3,5 +3,37 @@
     <string name="TXT1">¡Bienvenido!</string>
     <string name="txt2">Recuerda cuidar el</string>
     <string name="txt3">ambiente</string>
+    <string name="txt4">Calculadora semanal</string> //Fer
+    <string name="txt5">¿Cuánta energía gasté?</string> //Fer
+    <string name="txt6">¿Qué dispositivos usaste esta semana?</string> //Fer
+    <string name="txt7">Computadora</string> //Fer
+    <string name="txt8">Celular</string> //Fer
+    <string name="txt9">Televisión</string> //Fer
+    <string name="txt10">Lavadora</string> //Fer
+    <string name="txt11">Microondas</string> //Fer
+    <string name="txt12">Cafetera</string> //Fer
+    <string name="txt13">Horno</string> //Fer
+    <string name="txt14">Nintendo Switch</string> //Fer
+    <string name="txt15">PLaystation</string> //Fer
+    <string name="txt16">Xbox</string> //Fer
+    <string name="txt17">Secadora</string> //Fer
+    <string name="txt18">Freidora de aire</string> //Fer
+    <string name="txt19">Impresora</string> //Fer
+    <string name="txt20">Plancha</string> //Fer
+    <string name="txt21">Refrigerador</string> //Fer
+    <string name="txt22">Licuadora</string> //Fer
+    <string name="txt23">Batidora</string> //Fer
+    <string name="txt24">Recuerda</string> //Fer
+
+    <string name="txt25">Los cálculos presentados aquí NO son exactos, son solamente aproximaciones. En el caso de dispositivos como la lavadora,
+        el microondas, cafetera, horno, secadora, freidora, impresora, plancha, licuadora y batidora; los cálculos son tomados por 2hrs de uso a
+        la semana. El resto es cálculado por uso de 10hrs a la semana. Puede que consumas menos o incluso más de lo que se presenta aquí.</string> //Fer
+
+    <string name="txt26">Concumo de energía apróximado</string> //Fer
+    <string name="txt27">🌱</string> //Fer
+    <string name="txt28">Calcular</string> //Fer
+    <string name="txt29">Calculadora</string> //Fer
+    <string name="txt30">Inicio</string> //Fer
+    <string name="txt31">Calculadora semanal</string> //Fer
 
 </resources>
