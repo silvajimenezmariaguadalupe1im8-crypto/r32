@@ -8,36 +8,42 @@
     android:background="#FDFDFD"
     tools:context=".MainActivity">
 
+
     <ScrollView
         android:id="@+id/scrollViewPrincipal"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/barraInferior"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingHorizontal="20dp"
-            android:paddingTop="24dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="20dp"
             android:paddingBottom="24dp">
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="35dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:paddingEnd="8dp">
 
                     <TextView
                         android:id="@+id/bienvendi"
@@ -76,19 +82,21 @@
                     android:src="@drawable/img1" />
             </LinearLayout>
 
-
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="20dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/img2" />
+
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="cursive"
                 android:gravity="center"
@@ -100,26 +108,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="12dp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardArticulo1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_margin="6dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:padding="10dp">
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
                         <TextView
                             android:id="@+id/textView33"
@@ -139,23 +149,22 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardArticulo2"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_margin="6dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:padding="10dp">
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
                         <TextView
                             android:id="@+id/textView36"
@@ -165,7 +174,6 @@
                             android:gravity="center"
                             android:text="@string/txt36"
                             android:textSize="13sp" />
-
 
                         <ImageView
                             android:id="@+id/imageViewArticulo2"
@@ -182,26 +190,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="16dp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardArticulo3"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_margin="6dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:padding="10dp">
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
                         <TextView
                             android:id="@+id/textView35"
@@ -211,7 +221,6 @@
                             android:gravity="center"
                             android:text="@string/txt37"
                             android:textSize="13sp" />
-
 
                         <ImageView
                             android:id="@+id/imageViewArticulo3"
@@ -223,23 +232,22 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardArticulo4"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_margin="6dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="#FFFFFF">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:padding="10dp">
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
 
                         <TextView
                             android:id="@+id/textViewArticulo4"
@@ -250,7 +258,6 @@
                             android:text="@string/txt38"
                             android:textSize="13sp" />
 
-
                         <ImageView
                             android:id="@+id/imageViewArticulo4"
                             android:layout_width="match_parent"
@@ -258,7 +265,6 @@
                             android:background="#E8F5E9"
                             android:src="@drawable/sobreen"
                             android:scaleType="centerCrop" />
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -266,26 +272,29 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Barra inferior fija con 3 secciones iguales -->
+
     <LinearLayout
         android:id="@+id/barraInferior"
         android:layout_width="0dp"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
+        android:minHeight="58dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
         android:background="#FFFFFF"
         android:elevation="6dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
             android:id="@+id/btnNavCalculadora"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -299,17 +308,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:gravity="center"
-                android:text="Calculadora"
+                android:text="@string/txt28"
                 android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/btnNavInicio"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -323,17 +332,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:gravity="center"
-                android:text="Inicio"
+                android:text="@string/txt30"
                 android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/btnNavCalendario"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -347,7 +356,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:gravity="center"
-                android:text="Calendario semanal"
+                android:text="@string/txt31"
                 android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
