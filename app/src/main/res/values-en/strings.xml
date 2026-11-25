@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">r3</string>
+    <string name="TXT1">Welcome!</string>
+    <string name="txt2">Remember to take care of the</string>
+    <string name="txt3">enviorenment</string>
+    <string name="txt4">Weekly calculator</string> //Fer
+    <string name="txt5">How much energy did I use?</string> //Fer
+    <string name="txt6">Which devices did you use this week?</string> //Fer
+    <string name="txt7">Computer</string> //Fer
+    <string name="txt8">Phone</string> //Fer
+    <string name="txt9">TV</string> //Fer
+    <string name="txt10">Washing machine</string> //Fer
+    <string name="txt11">Microwave</string> //Fer
+    <string name="txt12">Coffe maker</string> //Fer
+    <string name="txt13">Oven</string> //Fer
+    <string name="txt14">Nintendo Switch</string> //Fer
+    <string name="txt15">PLaystation</string> //Fer
+    <string name="txt16">Xbox</string> //Fer
+    <string name="txt17">Dryer</string> //Fer
+    <string name="txt18">Air fryer</string> //Fer
+    <string name="txt19">Printer</string> //Fer
+    <string name="txt20">Iron</string> //Fer
+    <string name="txt21">Refrigerator</string> //Fer
+    <string name="txt22">Blender</string> //Fer
+    <string name="txt23">Hand mixer</string> //Fer
+    <string name="txt24">Remember</string> //Fer
+
+    <string name="txt25">The calculations presented here are NOT exact; they are only
+        approximations. In the case of appliances such as the washing machine, microwave,
+        coffee maker, oven, dryer, air fryer, printer, iron, refrigerator, blender, and
+        hand mixer, the calculations are based on 2 hours of use per week. The rest is
+        calculated based on 10 hours per week. You may consume less or even more than what
+        is shown here.</string> //Fer
+
+    <string name="txt26">Approximate energy consumption:</string> //Fer
+    <string name="txt27">🌱</string> //Fer
+    <string name="txt28">Calculate</string> //Fer
+    <string name="txt29">Calculator</string> //Fer ................................................
+    <string name="txt30">Home</string> //Fer .....................................................
+    <string name="txt31">Weekly calculator</string> //Fer ........................................
+    <string name="txt32">Articles</string> //Antto
+    <string name="txt33">What is CO2 and how does it affect us?</string> //Antto
+    <string name="txt34">CO2 is a greenhouse gas that traps heat in Earth\'s atmosphere.
+        \n\nThis creates the so-called greenhouse effect, which is essential to maintain
+        the right conditions for life on our planet. However, human activities, such as burning
+        fossil fuels and deforestation, have increased CO2 levels in the atmosphere at an alarming rate.
+        \n\nThis excessive increase in CO2 is causing global warming and drastic changes in our climate.\n\nCarbon
+        dioxide concentration in the atmosphere currently exceeds 420 parts per million (ppm). &#xA;Over the last 800,000 years,
+        CO2 concentration in the atmosphere fluctuated between 170 and 330 parts per million (levels very acceptable for the planet\'s sustainability),
+        but over the last 170 years, and enormously accelerated over the last three decades, CO2 emissions have skyrocketed to values that currently
+        reach 420 parts per million.\n\nIt is a gas that contributes to warming the planet even though it is not the only one. Other natural gases
+        (methane, nitrous oxide) or artificial ones (fluorinated gases) are also part of the well-known greenhouse gases (GHG). In fact, their increase in
+        the atmosphere is what triggers climate change, the climate crisis, or the climate emergency. These are three very close terms used to describe
+        the global warming that Earth is suffering.\n\nOfficial statistics confirm that CO2 emissions over recent years (except for the lockdown months
+        and the drastic drop in activity in many countries due to the pandemic) have not decreased.\n\nScientific reports warn of multiple risks and impacts.
+        For example, water supply problems, crop collapse, drinking water scarcity (for the first time in history, water is traded on the futures market, just
+        like gold or wheat), sea level rise, species extinction, the disappearance of entire ecosystems (especially the most fragile ones like coral reefs),
+        an increase in droughts, hurricanes, or typhoons, mass migrations for climatic and geopolitical reasons associated with them. The fragility of ecosystems
+        grows, and many future problems are not even predictable today.\n\nThe consequences in the not-too-distant future could be enormous, and many places with
+        catastrophic outcomes are already here.\n\nTo reduce our environmental impact, it is important to adopt energy-efficient practices. &#xA;A simple way to do
+        this is by turning off appliances when we are not using them. Many devices keep consuming energy even in standby mode, so it is important to unplug them
+        completely. We can also use LED bulbs instead of traditional ones, since they are more efficient in energy consumption and last longer.\n\nIn addition,
+        making sure our homes and workplaces are well insulated can help reduce heat or cold leaks, and using curtains or blinds to regulate indoor temperature.
+        This involves sealing windows and doors to prevent heat or cold leaks.\n\nIt is important to use energy-efficient appliances and office equipment.
+        This refers to those that have a high energy efficiency rating and use less energy to perform the same tasks as less efficient models. When choosing
+        new appliances or equipment, it is important to look for the energy efficiency label and opt for the most efficient models available.\n\n<br/>Source: <br/> BBVA. (n.d.). Carbon dioxide (CO2): what it is and why it worries us. BBVA.</string> //Antto
+
+</resources>

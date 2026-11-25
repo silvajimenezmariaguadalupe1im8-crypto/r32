@@ -83,10 +83,21 @@
                 android:textSize="9sp"
                 android:gravity="center"/>
         </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="408dp"
+            android:layout_height="728dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
     </LinearLayout>
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/scrollView222"
         android:layout_width="408dp"
         android:layout_height="728dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,7 +128,7 @@
                         android:id="@+id/bienvendi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="52dp"
+                        android:layout_marginStart="10dp"
                         android:layout_marginTop="68dp"
                         android:fontFamily="@font/lobster"
                         android:text="@string/TXT1"
@@ -125,20 +136,20 @@
                         android:textSize="30sp" />
 
                     <TextView
-                        android:id="@+id/bienveni"
+                        android:id="@+id/recuerda"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="60dp"
+                        android:layout_marginStart="10dp"
                         android:fontFamily="sans-serif"
                         android:text="@string/txt2"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/bienveni"
+                        android:id="@+id/ambiente"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="60dp"
+                        android:layout_marginStart="10dp"
                         android:text="@string/txt3"
                         android:textColor="#4CAF50"
                         android:textSize="16sp" />
