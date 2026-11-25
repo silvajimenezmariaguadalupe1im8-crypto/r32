@@ -1,5 +1,6 @@
 package com.example.r3;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,9 +17,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class calculadora_semanal extends AppCompatActivity {
 
 private TextView textViewCantEnergia;
-
-private ImageView reg, imcalculadora, iminicio, imcalendario;
-private Button calcularS;
 private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora, freidora, impresora, plancha, refrigerador, licuadora, batidora;
 
     @Override
@@ -33,11 +31,6 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
         });
 
        textViewCantEnergia= (TextView) findViewById(R.id.textViewCantEnergia);
-       reg= (ImageView) findViewById(R.id.reg);
-       imcalculadora= (ImageView) findViewById(R.id.imcalculadora);
-       iminicio= (ImageView) findViewById(R.id.iminicio);
-       imcalendario= (ImageView) findViewById(R.id.imcalendario);
-       calcularS= (Button) findViewById(R.id.calcularS);
        com= (CheckBox) findViewById(R.id.com);
        cel= (CheckBox) findViewById(R.id.cel);
        tel= (CheckBox) findViewById(R.id.tel);
@@ -151,6 +144,14 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
         }
 
 String resultado = String.valueOf(tkwh);
-        textViewCantEnergia.setText(resultado);
+        textViewCantEnergia.setText(resultado +" Kwh");
     }
+
+    public void pantalla_principal (View view){
+
+        Intent pp = new Intent(this, MainActivity.class);
+        startActivity(pp);
+
+    }
+
 }
