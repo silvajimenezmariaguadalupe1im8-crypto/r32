@@ -1,6 +1,8 @@
 package com.example.r3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,10 @@ public class Articulo4 extends AppCompatActivity {
             return insets;
         });
     }
+    public void pantalla_principal (View view){
+
+        Intent pp = new Intent(this, MainActivity.class);
+        startActivity(pp);
 }
+}
+

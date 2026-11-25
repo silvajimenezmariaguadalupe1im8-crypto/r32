@@ -206,6 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="@string/txt31"
+                android:onClick="pantalla_principal"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 
