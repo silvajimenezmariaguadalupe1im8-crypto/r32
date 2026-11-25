@@ -70,5 +70,24 @@
     <string name="txt36">Home Appliances vs. Electronics</string>
     <string name="txt37">How do I know when it\'s consumerism?</string>
     <string name="txt38">About energy</string>
+    <string name="txt40">Dishwasher vs. desktop computer</string>
+    <string name="txt41">The dishwasher consumes significantly more electricity than a desktop computer.
+        Although a desktop computer uses electricity to run and possibly powers many accessories like the
+        monitor, modem, or router, there are two major high-consumption functions and potential energy uses
+        associated with the dishwasher.</string>
+    <string name="txt42">Hair dryer vs. ceiling fan</string>
+    <string name="txt43">Some small appliances that consume a large amount of electricity are the iron and
+        the microwave. Although the electricity consumption of these two appliances is similar, the microwave
+        uses more electricity, since it uses high-frequency radio waves to heat water molecules.</string>
+    <string name="txt44">Have you ever wondered how many times you change your phone without really needing to,
+        or what happened to the computer you discarded—did it simply disappear? The reality is that the accelerated
+        production and consumption of these Electrical and Electronic Equipment (EEE) is having a negative impact on
+        our health and the environment.\n\nOne of the most serious consequences of this increase in devices is the
+        amount of trash it generates, known as electronic waste. These wastes include discarded electrical or electronic
+        equipment and its parts that have been thrown away without intent to be reused. This waste accounts for 25.3% of
+        global electronic waste, and the United States and Brazil are the largest generators in the region.\n\nTo get an
+        idea of the fate of this waste in these countries: in the first, only 22 percent of this waste is recycled, and
+        the whereabouts of the remaining 88% are unknown. An alarming figure considering the harmful effect that these
+        wastes have on people and the planet.\n\n\n\n\nSource: BBVA. (n.d.). Home appliances vs. electronic devices. BBVA.</string>
 
 </resources>
