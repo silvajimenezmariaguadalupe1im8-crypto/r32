@@ -248,9 +248,9 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
                             android:layout_marginBottom="12dp"
                             android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingHorizontal="16dp"
                             android:paddingVertical="12dp">
@@ -259,17 +259,17 @@
                                 android:id="@+id/imageViewmic"
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
                                 android:layout_marginStart="5dp"
-                                android:src="@drawable/microondas"/>
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/microondas" />
 
                             <TextView
                                 android:id="@+id/textView9"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="@string/txt11"
                                 android:layout_marginStart="15dp"
                                 android:layout_weight="1"
+                                android:text="@string/txt11"
                                 android:textSize="13dp" />
 
                             <CheckBox
@@ -277,9 +277,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="15dp"
+                                android:buttonTint="#666F6E"
                                 android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
+                                android:minHeight="0dp" />
 
                         </LinearLayout>
 
@@ -757,6 +757,7 @@
                             android:textAlignment="center"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="30dp"
+                            android:justificationMode="inter_word"
                             android:textSize="15dp" />
 
                         <TextView
@@ -782,7 +783,7 @@
                             android:layout_width="130dp"
                             android:layout_height="50dp"
                             android:textAlignment="center"
-                            android:layout_marginLeft="100dp"
+                            android:layout_marginLeft="101dp"
                             android:onClick="opciones"
                             android:text="@string/txt28"/>
 
@@ -857,6 +858,7 @@
                 android:id="@+id/iminicio"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
+                android:onClick="pantalla_principal"
                 android:src="@drawable/inicio" />
 
             <TextView
