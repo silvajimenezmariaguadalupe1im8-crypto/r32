@@ -49,6 +49,7 @@ private CheckBox com, cel, tel, lav, mic, nin, play, xbox, secadora, impresora, 
        plancha= (CheckBox) findViewById(R.id.plancha);
        refrigerador= (CheckBox) findViewById(R.id.refrigerador);
 
+
     }
     public void opciones (View view) {
         double tkwh = 0.0;

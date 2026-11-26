@@ -112,6 +112,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt59"
                 android:backgroundTint="#BFEE85"
                 android:textAllCaps="false"
@@ -124,6 +125,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:backgroundTint="#BFEE85"
                 android:text="@string/txt60"
 
@@ -136,6 +138,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt61"
                 android:textColor="#222222" />
 
@@ -146,6 +149,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt62"
                 android:textColor="#222222" />
         </LinearLayout>
@@ -164,6 +168,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt63"
                 android:textColor="#222222" />
 
@@ -174,6 +179,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt64"
                 android:textColor="#222222" />
 
@@ -184,6 +190,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt65"
                 android:textColor="#222222" />
 
@@ -194,6 +201,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt66"
                 android:textColor="#222222" />
         </LinearLayout>
@@ -212,6 +220,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt67"
                 android:textColor="#222222" />
 
@@ -222,6 +231,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt68"
                 android:textColor="#222222" />
 
@@ -232,6 +242,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt69"
                 android:textColor="#222222" />
 
@@ -242,6 +253,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt70"
                 android:textColor="#222222" />
         </LinearLayout>
@@ -260,6 +272,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt71"
                 android:textColor="#222222" />
 
@@ -270,6 +283,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt72"
                 android:textColor="#222222" />
 
@@ -280,6 +294,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:onClick="clicNumero"
                 android:text="@string/txt73"
                 android:textColor="#222222" />
 
