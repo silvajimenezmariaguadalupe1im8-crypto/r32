@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginBottom="55dp"
         android:padding="16dp">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,10 +24,10 @@
         android:orientation="horizontal"
         android:paddingBottom="12dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btnRegresar"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:focusable="true"
             android:clickable="true"
             android:src="@drawable/regresar" />
@@ -162,7 +164,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="7"
+                android:text="@string/txt63"
                 android:textColor="#222222" />
 
             <Button
@@ -172,7 +174,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="8"
+                android:text="@string/txt64"
                 android:textColor="#222222" />
 
             <Button
@@ -182,7 +184,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="9"
+                android:text="@string/txt65"
                 android:textColor="#222222" />
 
             <Button
@@ -192,7 +194,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="*"
+                android:text="@string/txt66"
                 android:textColor="#222222" />
         </LinearLayout>
 
@@ -210,7 +212,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="4"
+                android:text="@string/txt67"
                 android:textColor="#222222" />
 
             <Button
@@ -220,7 +222,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="5"
+                android:text="@string/txt68"
                 android:textColor="#222222" />
 
             <Button
@@ -230,7 +232,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="6"
+                android:text="@string/txt69"
                 android:textColor="#222222" />
 
             <Button
@@ -240,7 +242,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="-"
+                android:text="@string/txt70"
                 android:textColor="#222222" />
         </LinearLayout>
 
@@ -258,7 +260,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="1"
+                android:text="@string/txt71"
                 android:textColor="#222222" />
 
             <Button
@@ -268,7 +270,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="2"
+                android:text="@string/txt72"
                 android:textColor="#222222" />
 
             <Button
@@ -278,7 +280,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="3"
+                android:text="@string/txt73"
                 android:textColor="#222222" />
 
             <Button
@@ -288,7 +290,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="+"
+                android:text="@string/txt74"
                 android:textColor="#222222" />
         </LinearLayout>
 
@@ -306,7 +308,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="."
+                android:text="@string/txt75"
                 android:textColor="#222222" />
 
             <Button
@@ -316,7 +318,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:text="0"
+                android:text="@string/txt76"
                 android:textColor="#222222" />
 
             <Button
@@ -326,110 +328,110 @@
                 android:layout_margin="4dp"
                 android:layout_weight="2"
                 android:backgroundTint="#C5BDD6"
-                android:text="="
+                android:text="@string/txt77"
                 android:textColor="#222222"
                 android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
 
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/barrainferior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
         <LinearLayout
-            android:id="@+id/barrainferior"
-            android:layout_width="match_parent"
+            android:id="@+id/calculadora"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@android:color/white"
-            android:elevation="8dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingVertical="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="parent"
-            tools:ignore="MissingConstraints">
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/calculadora"
-                android:layout_width="0dp"
+            <ImageView
+                android:id="@+id/imcalculadora"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/calculadora" />
+
+            <TextView
+                android:id="@+id/textviewCal"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:focusable="true"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imcalculadora"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/calculadora" />
-
-                <TextView
-                    android:id="@+id/textviewCal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="@string/txt29"
-                    android:textColor="#111111"
-                    android:textSize="9sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/inicio"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:focusable="true"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/iminicio"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:onClick="pantalla_principal"
-                    android:src="@drawable/inicio" />
-
-                <TextView
-                    android:id="@+id/textviewinicio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="@string/txt30"
-                    android:textColor="#111111"
-                    android:textSize="9sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/calendario"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:focusable="true"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imcalendario"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/calendario" />
-
-                <TextView
-                    android:id="@+id/textviewCalendario"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="@string/txt31"
-                    android:textColor="#111111"
-                    android:textSize="9sp" />
-
-            </LinearLayout>
+                android:layout_marginTop="4dp"
+                android:text="@string/txt29"
+                android:textColor="#111111"
+                android:textSize="9sp" />
 
         </LinearLayout>
 
-</LinearLayout>
+        <LinearLayout
+            android:id="@+id/inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iminicio"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:onClick="pantalla_principal"
+                android:src="@drawable/inicio" />
+
+            <TextView
+                android:id="@+id/textviewinicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/txt30"
+                android:textColor="#111111"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/calendario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imcalendario"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/textviewCalendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/txt31"
+                android:textColor="#111111"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

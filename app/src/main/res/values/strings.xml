@@ -174,6 +174,21 @@ Nuestro continente produce el 25,3% de los residuos electrónicos globales y Est
     <string name="txt60">DEL</string>
     <string name="txt61">%</string>
     <string name="txt62">/</string>
+    <string name="txt63">7</string>
+    <string name="txt64">8</string>
+    <string name="txt65">9</string>
+    <string name="txt66">*</string>
+    <string name="txt67">4</string>
+    <string name="txt68">5</string>
+    <string name="txt69">6</string>
+    <string name="txt70">-</string>
+    <string name="txt71">1</string>
+    <string name="txt72">2</string>
+    <string name="txt73">3</string>
+    <string name="txt74">+</string>
+    <string name="txt75">.</string>
+    <string name="txt76">0</string>
+    <string name="txt77">=</string>
 
 
 </resources>
