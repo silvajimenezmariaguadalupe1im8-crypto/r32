@@ -128,8 +128,6 @@
                         android:id="@+id/layout_art1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:clickable="true"
-                        android:focusable="true"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
                         android:padding="10dp">
@@ -144,11 +142,14 @@
                             android:textSize="13sp" />
 
                         <ImageView
-                            android:id="@+id/imageView14"
+                            android:id="@+id/btnArt1"
                             android:layout_width="match_parent"
                             android:layout_height="110dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/co2" />
+                            android:src="@drawable/co2"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:onClick="art1"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -166,8 +167,6 @@
                         android:id="@+id/layout_art2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:clickable="true"
-                        android:focusable="true"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
                         android:padding="10dp">
@@ -182,12 +181,15 @@
                             android:textSize="13sp" />
 
                         <ImageView
-                            android:id="@+id/imageViewArticulo2"
+                            android:id="@+id/btn_Art2"
                             android:layout_width="match_parent"
                             android:layout_height="110dp"
                             android:background="#E8F5E9"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/apelec" />
+                            android:src="@drawable/apelec"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:onClick="art2"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -216,8 +218,6 @@
                         android:id="@+id/layout_art3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:clickable="true"
-                        android:focusable="true"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
                         android:padding="10dp">
@@ -232,12 +232,14 @@
                             android:textSize="13sp" />
 
                         <ImageView
-                            android:id="@+id/imageViewArticulo3"
+                            android:id="@+id/btn_Art3"
                             android:layout_width="match_parent"
                             android:layout_height="110dp"
                             android:background="#E8F5E9"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/consumismo" />
+                            android:src="@drawable/consumismo"
+                            android:clickable="true"
+                            android:focusable="true" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -255,8 +257,6 @@
                         android:id="@+id/layout_art4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:clickable="true"
-                        android:focusable="true"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
                         android:padding="10dp">
@@ -271,12 +271,15 @@
                             android:textSize="13sp" />
 
                         <ImageView
-                            android:id="@+id/imageViewArticulo4"
+                            android:id="@+id/btn_Art4"
                             android:layout_width="match_parent"
                             android:layout_height="110dp"
                             android:background="#E8F5E9"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/sobreen" />
+                            android:src="@drawable/sobreen"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:onClick="art4"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -306,15 +309,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center"
-            android:clickable="true"
-            android:focusable="true">
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@drawable/calculadora" />
+                android:src="@drawable/calculadora"
+                android:clickable="true"
+                android:focusable="true"/>
 
             <TextView
                 android:id="@+id/textView17"
@@ -332,9 +335,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center"
-            android:clickable="true"
-            android:focusable="true">
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -358,15 +359,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center"
-            android:clickable="true"
-            android:focusable="true">
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@drawable/calendario" />
+                android:src="@drawable/calendario"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="CalSem"/>
 
             <TextView
                 android:id="@+id/textView28"
