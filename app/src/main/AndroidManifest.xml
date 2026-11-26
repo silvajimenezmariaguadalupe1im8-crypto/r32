@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R3">
         <activity
+            android:name=".avisoPrivacidad"
+            android:exported="false" />
+        <activity
+            android:name=".valoracion1"
+            android:exported="false" />
+        <activity
+            android:name=".valoracion2"
+            android:exported="false" />
+        <activity
+            android:name=".valoracion"
+            android:exported="false" />
+        <activity
             android:name=".Calculadora"
             android:exported="true" />
         <activity

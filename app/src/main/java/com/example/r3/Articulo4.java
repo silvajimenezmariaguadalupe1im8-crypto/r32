@@ -29,16 +29,21 @@ public class Articulo4 extends AppCompatActivity {
         btnRegresar.setOnClickListener(v -> finish());
 
     }
-    public void pantalla_principal (View view){
+
+    public void pantalla_principal(View view) {
 
         Intent pp = new Intent(this, MainActivity.class);
         startActivity(pp);
     }
 
-    public void calc_sem (View view){
+    public void calc_sem(View view) {
 
         Intent cs = new Intent(this, calculadora_semanal.class);
         startActivity(cs);
+    }
 
+    public void calc4(View view) {
+        Intent cc4 = new Intent(this, Calculadora.class);
+        startActivity(cc4);
     }
-    }
+}

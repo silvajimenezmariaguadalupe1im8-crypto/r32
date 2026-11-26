@@ -19,6 +19,10 @@
     //Fer
     <string name="txt11">Microondas</string>
     //Fer
+    <string name="txt12">Cafetera</string>
+    //Fer
+    <string name="txt13">Horno</string>
+    //Fer
     <string name="txt14">Nintendo Switch</string>
     //Fer
     <string name="txt15">PLaystation</string>
@@ -27,11 +31,17 @@
     //Fer
     <string name="txt17">Secadora</string>
     //Fer
+    <string name="txt18">Freidora de aire</string>
+    //Fer
     <string name="txt19">Impresora</string>
     //Fer
     <string name="txt20">Plancha</string>
     //Fer
     <string name="txt21">Refrigerador</string>
+    //Fer
+    <string name="txt22">Licuadora</string>
+    //Fer
+    <string name="txt23">Batidora</string>
     //Fer
     <string name="txt24">Recuerda</string>
     //Fer
@@ -128,6 +138,17 @@ Nuestro continente produce el 25,3% de los residuos electrónicos globales y Est
         de electricidad que el secador de cabello consume en solo unos pocos minutos</string>
     <string name="txt52">Plancha vs microondas</string>
     <string name="txt53">JDA Eléctricos, (s.f.). Electrodomésticos vs dispositivos eléctronicos. JDA Eléctricos</string>
+
+
+    <string name="txtVa">¡Hola,de nuevo!</string>
+    <string name="txtVb">Tu opinión es importante, calificanos</string>
+    <string name="txtVc">Ingresa tu nombre por favor</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtVd">Gracias</string>
+    <string name="txtVe">Te agradecemos </string>
+    <string name="btnRegresar">Regresar</string>
+
+
     <string name="txt54">El consumo es la acción de utilizar y/o gastar un producto, un bien o un servicio para atender
         necesidades humanas, el consumismo es el exceso del consumo.\nCon la aparición de multitud de espacios publicitarios,
         el marketing digital y las mejoras en las telecomunicaciones se facilita la adquisición de bienes y servicios por parte de la sociedad.
