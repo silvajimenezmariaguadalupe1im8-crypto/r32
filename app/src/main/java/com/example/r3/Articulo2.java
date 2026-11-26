@@ -31,12 +31,9 @@ public class Articulo2 extends AppCompatActivity {
 
     }
     public void pantalla_principal (View view){
-
         Intent pp = new Intent(this, MainActivity.class);
         startActivity(pp);
-
     }
-
     public void calc_sem (View view){
 
         Intent c_s = new Intent(this, calculadora_semanal.class);

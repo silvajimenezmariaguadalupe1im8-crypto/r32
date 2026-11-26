@@ -29,16 +29,18 @@ public class MainActivity extends AppCompatActivity {
         Intent cal=new Intent(this,calculadora_semanal.class);
         startActivity(cal);
     }
+    //Publicar metodo para la calculadora
     public void art1(View view){
-        Intent a1= new Intent(this,Art1.class);
+        Intent a1= new Intent(this,Articulo4.class);
         startActivity(a1);
     }
     public void art2(View view){
-        Intent a2 = new Intent(this,Articulo2.class);
+        Intent a2 = new Intent(this,Art1.class);
         startActivity(a2);
     }
+    //publicar metodo para el articulo 3
     public void art4(View view){
-        Intent a4 = new Intent(this, Articulo4.class);
+        Intent a4 = new Intent(this, Articulo2.class);
         startActivity(a4);
     }
 

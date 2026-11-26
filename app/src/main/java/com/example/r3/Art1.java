@@ -29,16 +29,15 @@ public class Art1 extends AppCompatActivity {
         btnRegresar.setOnClickListener(v -> finish());
 
     }
-    public void pantalla_principal (View view){
-
-        Intent pp = new Intent(this, MainActivity.class);
-        startActivity(pp);
-    }
 
     public void calc_sem (View view){
 
         Intent cs = new Intent(this, calculadora_semanal.class);
         startActivity(cs);
-
     }
+    public void ini(View view){
+        Intent in = new Intent(this,MainActivity.class);
+        startActivity(in);
+    }
+    //Publicar para la calculadora
     }
