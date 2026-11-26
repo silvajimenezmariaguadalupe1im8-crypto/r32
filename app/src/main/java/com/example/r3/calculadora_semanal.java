@@ -147,7 +147,7 @@ String resultado = String.valueOf(tkwh);
         textViewCantEnergia.setText(resultado +" Kwh");
     }
 
-    public void pantalla_principal (View view){
+    public void pantalla_principal(View view){
 
         Intent pp = new Intent(this, MainActivity.class);
         startActivity(pp);
