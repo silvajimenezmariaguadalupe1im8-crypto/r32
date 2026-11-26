@@ -12,24 +12,18 @@
     <string name="txt9">TV</string> //Fer
     <string name="txt10">Washing machine</string> //Fer
     <string name="txt11">Microwave</string> //Fer
-    <string name="txt12">Coffe maker</string> //Fer
-    <string name="txt13">Oven</string> //Fer
     <string name="txt14">Nintendo Switch</string> //Fer
     <string name="txt15">PLaystation</string> //Fer
     <string name="txt16">Xbox</string> //Fer
     <string name="txt17">Dryer</string> //Fer
-    <string name="txt18">Air fryer</string> //Fer
     <string name="txt19">Printer</string> //Fer
     <string name="txt20">Iron</string> //Fer
     <string name="txt21">Refrigerator</string> //Fer
-    <string name="txt22">Blender</string> //Fer
-    <string name="txt23">Hand mixer</string> //Fer
     <string name="txt24">Remember</string> //Fer
 
     <string name="txt25">The calculations presented here are NOT exact; they are only
         approximations. In the case of appliances such as the washing machine, microwave,
-        coffee maker, oven, dryer, air fryer, printer, iron, refrigerator, blender, and
-        hand mixer, the calculations are based on 2 hours of use per week. The rest is
+        dryer, printer, iron and refrigerator, the calculations are based on 2 hours of use per week. The rest is
         calculated based on 10 hours per week. You may consume less or even more than what
         is shown here.</string> //Fer
 
@@ -103,5 +97,20 @@
         of electricity that the hair dryer uses in just a few minutes.</string>
     <string name="txt52">Iron vs Microwave</string>
     <string name="txt53">JDA Eléctricos, (s.f.). Home Appliances vs. Electronics. JDA Eléctricos</string>
+    <string name="txt54">Consumption is the act of using and/or spending on a product, good, or service to meet human needs; consumerism is excessive
+        consumption.\n\nWith the emergence of a wide variety of advertising spaces, digital marketing, and improvements in telecommunications, acquiring
+        goods and services has become easier for society.\n\nDifferent payment facilities have also been developed, prices have dropped due to globalization,
+        and the online market has been created, allowing the purchase of a specific good from anywhere on the planet.</string>
+    <string name="txt55">Impacts on the planet</string>
+    <string name="txt56">Daily, thousands of households consume toys, clothes, tools, drinks, plastic, paper, furniture, food, among other things. These
+        cause 60% of greenhouse gas emissions, in addition to using between 50% and 80% of the Earth\'s natural resources (water, land, and raw materials).\n\nAs
+        consumerism increases year after year, the consumption of natural resources grows. Furthermore, it is important to highlight that this trend is the main
+        generator of waste.\n\nUsing so many disposable products does not remove the need to want something new in a short period of time. Even individuals replace
+        what is old with something new, so even if what is "old" is in good condition, it is not necessary to choose the model of using and then throwing away clothes
+        that can still be used.\n\nEven in the fashion world, it is not necessary to contribute more to discarding and buying. In fact, we recommend approaching this
+        sector carefully, since it is often disguised as greenwashing. We encourage you to choose sustainable and conscious fashion. If you establish keeping your clothes
+        for a year or two, you will save money, water, and raw materials, in addition to avoiding environmental pollution, creating a capsule wardrobe with your basic garments
+        of good quality and durability.</string>
+    <string name="txt57">Jesús, S. (August 14, 2025). What is consumerism? Economía 360</string>
 
 </resources>

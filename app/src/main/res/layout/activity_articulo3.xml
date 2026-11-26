@@ -85,18 +85,11 @@
                             android:id="@+id/textView8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/txt36"
+                            android:text="@string/txt37"
                             android:textSize="20sp"
                             android:textAlignment="center"/>
 
-                        <TextView
-                            android:id="@+id/textViewart2subtit"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/txt45"
-                            android:layout_marginTop="35dp"
-                            android:textAlignment="center"
-                            android:textSize="14sp" />
+
 
                         <TextView
                             android:id="@+id/textViewcontlav"
@@ -105,23 +98,15 @@
                             android:layout_marginTop="30dp"
                             android:layout_marginBottom="30dp"
                             android:justificationMode="inter_word"
-                            android:text="@string/txt46"
+                            android:text="@string/txt54"
                             android:textSize="12sp"/>
-
-                        <ImageView
-                            android:id="@+id/imageView10"
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_marginTop="-50dp"
-                            android:layout_marginBottom="-20dp"
-                            android:src="@drawable/lav_imp" />
 
                         <TextView
                             android:id="@+id/textViewrefri_boc"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/txt47"
-                            android:layout_marginTop="35dp"
+                            android:text="@string/txt55"
+                            android:layout_marginTop="20dp"
                             android:textAlignment="center"
                             android:textSize="14sp" />
 
@@ -132,43 +117,9 @@
                             android:layout_marginTop="30dp"
                             android:layout_marginBottom="30dp"
                             android:justificationMode="inter_word"
-                            android:text="@string/txt48"
+                            android:text="@string/txt56"
                             android:textSize="12sp"/>
 
-                        <ImageView
-                            android:id="@+id/imageView11"
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_marginTop="-50dp"
-                            android:layout_marginBottom="-20dp"
-                            android:src="@drawable/refribocina" />
-
-                        <TextView
-                            android:id="@+id/textViewrefri_boiler"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/txt49"
-                            android:layout_marginTop="35dp"
-                            android:textAlignment="center"
-                            android:textSize="14sp" />
-
-                        <TextView
-                            android:id="@+id/textViewrefri"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="30dp"
-                            android:layout_marginBottom="30dp"
-                            android:justificationMode="inter_word"
-                            android:text="@string/txt50"
-                            android:textSize="12sp"/>
-
-                        <ImageView
-                            android:id="@+id/imageView13"
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_marginTop="-50dp"
-                            android:layout_marginBottom="-20dp"
-                            android:src="@drawable/boiler_mac" />
 
                         <TextView
                             android:id="@+id/textViewrebib"
@@ -189,7 +140,7 @@
                     android:layout_height="188dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="50dp"
-                    android:src="@drawable/apelec" />
+                    android:src="@drawable/consumismo" />
 
             </FrameLayout>
 

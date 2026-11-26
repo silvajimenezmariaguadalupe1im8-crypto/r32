@@ -283,81 +283,6 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="12dp"
-                            android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:paddingHorizontal="16dp"
-                            android:paddingVertical="12dp">
-
-                            <ImageView
-                                android:id="@+id/imageViewcaf"
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginStart="5dp"
-                                android:src="@drawable/cafetera"/>
-
-                            <TextView
-                                android:id="@+id/textView10"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/txt12"
-                                android:layout_marginStart="15dp"
-                                android:layout_weight="1"
-                                android:textSize="13dp" />
-
-                            <CheckBox
-                                android:id="@+id/caf"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="15dp"
-                                android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="12dp"
-                            android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:paddingHorizontal="16dp"
-                            android:paddingVertical="12dp">
-
-                            <ImageView
-                                android:id="@+id/imageViewhorno"
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginStart="5dp"
-                                android:src="@drawable/horno"/>
-
-                            <TextView
-                                android:id="@+id/textView11"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/txt13"
-                                android:layout_marginStart="15dp"
-                                android:layout_weight="1"
-                                android:textSize="13dp" />
-
-                            <CheckBox
-                                android:id="@+id/horno"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="15dp"
-                                android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
-
-                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -511,43 +436,6 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="12dp"
-                            android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:paddingHorizontal="16dp"
-                            android:paddingVertical="12dp">
-
-                            <ImageView
-                                android:id="@+id/imageViewfreidora"
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginStart="5dp"
-                                android:src="@drawable/freidoraaire"/>
-
-                            <TextView
-                                android:id="@+id/textView20"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/txt18"
-                                android:layout_marginStart="15dp"
-                                android:layout_weight="1"
-                                android:textSize="13dp" />
-
-                            <CheckBox
-                                android:id="@+id/freidora"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="15dp"
-                                android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
-
-                        </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -663,81 +551,6 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="12dp"
-                            android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:paddingHorizontal="16dp"
-                            android:paddingVertical="12dp">
-
-                            <ImageView
-                                android:id="@+id/imageViewlicuadora"
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginStart="5dp"
-                                android:src="@drawable/licuadora"/>
-
-                            <TextView
-                                android:id="@+id/textView25"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/txt22"
-                                android:layout_marginStart="15dp"
-                                android:layout_weight="1"
-                                android:textSize="13dp" />
-
-                            <CheckBox
-                                android:id="@+id/licuadora"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="15dp"
-                                android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="12dp"
-                            android:background="@drawable/rectangulo_item"
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:paddingHorizontal="16dp"
-                            android:paddingVertical="12dp">
-
-                            <ImageView
-                                android:id="@+id/imageViewbatidora"
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginStart="5dp"
-                                android:src="@drawable/batidora"/>
-
-                            <TextView
-                                android:id="@+id/textView26"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/txt23"
-                                android:layout_marginStart="15dp"
-                                android:layout_weight="1"
-                                android:textSize="13dp" />
-
-                            <CheckBox
-                                android:id="@+id/batidora"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="15dp"
-                                android:minWidth="0dp"
-                                android:minHeight="0dp"
-                                android:buttonTint="#666F6E"/>
-
-                        </LinearLayout>
 
                         <TextView
                             android:id="@+id/textView15"
