@@ -139,4 +139,19 @@ Nuestro continente produce el 25,3% de los residuos electrónicos globales y Est
     <string name="txt52">Plancha vs microondas</string>
     <string name="txt53">JDA Eléctricos, (s.f.). Electrodomésticos vs dispositivos eléctronicos. JDA Eléctricos</string>
 
+
+
+    <string name="txtVa">¡Hola,de nuevo!</string>
+    <string name="txtVb">Tu opinión es importante, calificanos</string>
+    <string name="txtVc">Ingresa tu nombre por favor</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtVd">Gracias</string>
+    <string name="txtVe">Te agradecemos </string>
+    <string name="btnRegresar">Regresar</string>
+
+
+
+
+
+
 </resources>

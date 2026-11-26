@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(a4);
     }
     public void Var(View view) {
-        Intent valorar = new Intent(this, valoracion1.class);
+        Intent valorar = new Intent(this,valoracion1.class);
         startActivity(valorar);
     }
 }
