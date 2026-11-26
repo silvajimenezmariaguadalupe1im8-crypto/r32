@@ -1,6 +1,8 @@
 package com.example.r3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +25,21 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    public void CalSem(View view){
+        Intent cal=new Intent(this,calculadora_semanal.class);
+        startActivity(cal);
+    }
+    public void art1(View view){
+        Intent a1= new Intent(this,Art1.class);
+        startActivity(a1);
+    }
+    public void art2(View view){
+        Intent a2 = new Intent(this,Articulo2.class);
+        startActivity(a2);
+    }
+    public void art4(View view){
+        Intent a4 = new Intent(this, Articulo4.class);
+        startActivity(a4);
+    }
+
 }

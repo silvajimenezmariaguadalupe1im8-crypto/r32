@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -157,5 +158,9 @@ String resultado = String.valueOf(tkwh);
         startActivity(pp);
 
     }
-
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Toast.makeText(this,"¿Quieres calcular la energía de un solo dispositivo? Ve al apartado Calculadora",Toast.LENGTH_LONG).show();
+    }
 }
