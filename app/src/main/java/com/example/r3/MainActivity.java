@@ -39,9 +39,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(a2);
     }
     //publicar metodo para el articulo 3
+    public void art3(View view){
+        Intent a3 = new Intent(this,Articulo3.class);
+        startActivity(a3);
+    }
     public void art4(View view){
         Intent a4 = new Intent(this, Articulo2.class);
         startActivity(a4);
     }
-
+    public void Var(View view) {
+        Intent valorar = new Intent(this, valoracion1.class);
+        startActivity(valorar);
+    }
 }

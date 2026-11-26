@@ -41,7 +41,8 @@
                     android:focusable="true"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/regresar" />
+                    android:src="@drawable/regresar"
+                    />
                 <TextView
                     android:id="@+id/tvTituloPantallaArt"
                     android:layout_width="0dp"
@@ -215,8 +216,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -224,7 +223,9 @@
                 android:id="@+id/imcalculadora"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/calculadora" />
+                android:src="@drawable/calculadora"
+                android:clickable="true"
+                android:focusable="true"/>
 
             <TextView
                 android:id="@+id/textviewCal"
@@ -242,8 +243,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -251,7 +250,10 @@
                 android:id="@+id/iminicio"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/inicio" />
+                android:src="@drawable/inicio"
+                android:focusable="true"
+                android:clickable="true"
+                android:onClick="iniCi"/>
 
             <TextView
                 android:id="@+id/textviewinicio"
@@ -269,8 +271,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -278,7 +278,10 @@
                 android:id="@+id/imcalendario"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/calendario" />
+                android:src="@drawable/calendario"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="calculaSE"/>
 
             <TextView
                 android:id="@+id/textviewCalendario"
