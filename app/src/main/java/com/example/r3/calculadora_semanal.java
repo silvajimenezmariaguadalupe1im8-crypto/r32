@@ -30,6 +30,10 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
             return insets;
         });
 
+        ImageView btnRegresar = findViewById(R.id.reg);
+
+        btnRegresar.setOnClickListener(v -> finish());
+
        textViewCantEnergia= (TextView) findViewById(R.id.textViewCantEnergia);
        com= (CheckBox) findViewById(R.id.com);
        cel= (CheckBox) findViewById(R.id.cel);
