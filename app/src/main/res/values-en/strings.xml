@@ -12,24 +12,18 @@
     <string name="txt9">TV</string> //Fer
     <string name="txt10">Washing machine</string> //Fer
     <string name="txt11">Microwave</string> //Fer
-    <string name="txt12">Coffe maker</string> //Fer
-    <string name="txt13">Oven</string> //Fer
     <string name="txt14">Nintendo Switch</string> //Fer
     <string name="txt15">PLaystation</string> //Fer
     <string name="txt16">Xbox</string> //Fer
     <string name="txt17">Dryer</string> //Fer
-    <string name="txt18">Air fryer</string> //Fer
     <string name="txt19">Printer</string> //Fer
     <string name="txt20">Iron</string> //Fer
     <string name="txt21">Refrigerator</string> //Fer
-    <string name="txt22">Blender</string> //Fer
-    <string name="txt23">Hand mixer</string> //Fer
     <string name="txt24">Remember</string> //Fer
 
     <string name="txt25">The calculations presented here are NOT exact; they are only
         approximations. In the case of appliances such as the washing machine, microwave,
-        coffee maker, oven, dryer, air fryer, printer, iron, refrigerator, blender, and
-        hand mixer, the calculations are based on 2 hours of use per week. The rest is
+        dryer, printer, iron and refrigerator, the calculations are based on 2 hours of use per week. The rest is
         calculated based on 10 hours per week. You may consume less or even more than what
         is shown here.</string> //Fer
 

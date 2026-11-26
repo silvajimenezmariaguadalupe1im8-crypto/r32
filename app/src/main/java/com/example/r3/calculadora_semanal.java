@@ -18,7 +18,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class calculadora_semanal extends AppCompatActivity {
 
 private TextView textViewCantEnergia;
-private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora, freidora, impresora, plancha, refrigerador, licuadora, batidora;
+private CheckBox com, cel, tel, lav, mic, nin, play, xbox, secadora, impresora, plancha, refrigerador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,24 +35,19 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
 
         btnRegresar.setOnClickListener(v -> finish());
 
-       textViewCantEnergia= (TextView) findViewById(R.id.textViewCantEnergia);
-       com= (CheckBox) findViewById(R.id.com);
-       cel= (CheckBox) findViewById(R.id.cel);
-       tel= (CheckBox) findViewById(R.id.tel);
-       lav= (CheckBox) findViewById(R.id.lav);
-       mic = (CheckBox) findViewById(R.id.mic);
-       caf= (CheckBox) findViewById(R.id.caf);
-       horno= (CheckBox) findViewById(R.id.horno);
+        textViewCantEnergia = (TextView) findViewById(R.id.textViewCantEnergia);
+        com = (CheckBox) findViewById(R.id.com);
+        cel = (CheckBox) findViewById(R.id.cel);
+        tel = (CheckBox) findViewById(R.id.tel);
+        lav = (CheckBox) findViewById(R.id.lav);
+        mic = (CheckBox) findViewById(R.id.mic);
        nin= (CheckBox) findViewById(R.id.nin);
        play= (CheckBox) findViewById(R.id.play);
        xbox= (CheckBox) findViewById(R.id.xbox);
        secadora= (CheckBox) findViewById(R.id.secadora);
-       freidora= (CheckBox) findViewById(R.id.freidora);
        impresora= (CheckBox) findViewById(R.id.impresora);
        plancha= (CheckBox) findViewById(R.id.plancha);
        refrigerador= (CheckBox) findViewById(R.id.refrigerador);
-       licuadora= (CheckBox) findViewById(R.id.licuadora);
-       batidora= (CheckBox) findViewById(R.id.batidora);
 
     }
     public void opciones (View view) {
@@ -108,25 +103,12 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
             tkwh = tkwh + kwhmic;
         }
 
-        if (caf.isChecked()) {
-            double kwhcaf = (900.0 * 2.0) / 1000.0;
-            tkwh = tkwh + kwhcaf;
-        }
-
-        if (horno.isChecked()) {
-            double kwhhorno = (1500.0 * 2.0) / 1000.0;
-            tkwh = tkwh + kwhhorno;
-        }
 
         if (secadora.isChecked()) {
             double kwhxsec = (2000.0 * 2.0) / 1000.0;
             tkwh = tkwh + kwhxsec;
         }
 
-        if (freidora.isChecked()) {
-            double kwhf = (1500.0 * 2.0) / 1000.0;
-            tkwh = tkwh + kwhf;
-        }
 
         if (impresora.isChecked()) {
             double kwhim = (50.0 * 2.0) / 1000.0;
@@ -138,15 +120,6 @@ private CheckBox com, cel, tel, lav, mic, caf, horno, nin, play, xbox, secadora,
             tkwh = tkwh + kwhp;
         }
 
-        if (licuadora.isChecked()) {
-            double kwhli = (400.0 * 2.0) / 1000.0;
-            tkwh = tkwh + kwhli;
-        }
-
-        if (batidora.isChecked()) {
-            double kwhbat = (300.0 * 2.0) / 1000.0;
-            tkwh = tkwh + kwhbat;
-        }
 
 String resultado = String.valueOf(tkwh);
         textViewCantEnergia.setText(resultado +" Kwh");
