@@ -364,7 +364,7 @@
                 android:id="@+id/imcalculadora"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/calculadora" />
+                android:src="@drawable/calculadora"/>
 
             <TextView
                 android:id="@+id/textviewCal"
@@ -382,8 +382,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -391,8 +389,10 @@
                 android:id="@+id/iminicio"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:onClick="pantalla_principal"
-                android:src="@drawable/inicio" />
+                android:onClick="pAp1"
+                android:src="@drawable/inicio"
+                android:clickable="true"
+                android:focusable="true"/>
 
             <TextView
                 android:id="@+id/textviewinicio"
@@ -410,8 +410,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:clickable="true"
-            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -419,7 +417,10 @@
                 android:id="@+id/imcalendario"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/calendario" />
+                android:src="@drawable/calendario"
+                android:focusable="true"
+                android:clickable="true"
+                android:onClick="cc2"/>
 
             <TextView
                 android:id="@+id/textviewCalendario"

@@ -335,7 +335,8 @@
                 android:layout_height="22dp"
                 android:src="@drawable/calculadora"
                 android:clickable="true"
-                android:focusable="true"/>
+                android:focusable="true"
+                android:onClick="cc"/>
 
             <TextView
                 android:id="@+id/textView17"

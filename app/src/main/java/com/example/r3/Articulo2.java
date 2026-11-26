@@ -38,8 +38,10 @@ public class Articulo2 extends AppCompatActivity {
 
         Intent c_s = new Intent(this, calculadora_semanal.class);
         startActivity(c_s);
-
     }
-
+    public void calc2(View view) {
+        Intent cc2 = new Intent(this, Calculadora.class);
+        startActivity(cc2);
+    }
 
 }

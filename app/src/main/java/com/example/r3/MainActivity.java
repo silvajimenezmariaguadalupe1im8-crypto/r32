@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
         Intent cal=new Intent(this,calculadora_semanal.class);
         startActivity(cal);
     }
-    //Publicar metodo para la calculadora
+    //ublicar metodo para la calculadora
+    public void calc5(View view){
+        Intent cc5= new Intent(this,Calculadora.class);
+        startActivity(cc5);
+    }
     public void art1(View view){
         Intent a1= new Intent(this,Articulo4.class);
         startActivity(a1);

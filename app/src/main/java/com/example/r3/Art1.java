@@ -40,4 +40,8 @@ public class Art1 extends AppCompatActivity {
         startActivity(in);
     }
     //Publicar para la calculadora
+    public void calc1(View view) {
+        Intent cc1 = new Intent(this, Calculadora.class);
+        startActivity(cc1);
+    }
     }

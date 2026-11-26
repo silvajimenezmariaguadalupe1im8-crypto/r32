@@ -35,4 +35,8 @@ public class Articulo3 extends AppCompatActivity {
         Intent iniC = new Intent(this, MainActivity.class);
         startActivity(iniC);
     }
+    public void calc3(View view) {
+        Intent cc3 = new Intent(this, Calculadora.class);
+        startActivity(cc3);
+    }
 }

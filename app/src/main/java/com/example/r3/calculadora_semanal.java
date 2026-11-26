@@ -39,7 +39,7 @@ private CheckBox com, cel, tel, lav, mic, nin, play, xbox, secadora, impresora, 
         com = (CheckBox) findViewById(R.id.com);
         cel = (CheckBox) findViewById(R.id.cel);
         tel = (CheckBox) findViewById(R.id.tel);
-        lav = (CheckBox) findViewById(R.id.lav);
+        lav = (CheckBox) findViewById(R. id.lav);
         mic = (CheckBox) findViewById(R.id.mic);
        nin= (CheckBox) findViewById(R.id.nin);
        play= (CheckBox) findViewById(R.id.play);
