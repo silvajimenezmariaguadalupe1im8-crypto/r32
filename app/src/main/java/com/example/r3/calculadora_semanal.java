@@ -129,6 +129,10 @@ String resultado = String.valueOf(tkwh);
 
         Intent pp = new Intent(this, MainActivity.class);
         startActivity(pp);
+    }
+    public void calc6(View view){
+        Intent cc6 = new Intent(this,Calculadora.class);
+        startActivity(cc6);
 
     }
     @Override

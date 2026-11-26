@@ -35,7 +35,7 @@ public class valoracion2 extends AppCompatActivity {
         pb.setRating(rating);
     }
     public void Regresar(View view){
-        Intent reg= new Intent(this,valoracion1.class);
+        Intent reg= new Intent(this,MainActivity.class);
         startActivity(reg);
     }
 }

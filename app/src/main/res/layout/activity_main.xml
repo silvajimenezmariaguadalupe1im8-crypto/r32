@@ -336,7 +336,7 @@
                 android:src="@drawable/calculadora"
                 android:clickable="true"
                 android:focusable="true"
-                android:onClick="cc"/>
+                android:onClick="calc5"/>
 
             <TextView
                 android:id="@+id/textView17"
