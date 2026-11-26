@@ -106,5 +106,31 @@
     <string name="txt36">Electrodomésticos vs aparatos electrónicos</string>
     <string name="txt37">¿Cuándo sé que es consumismo?</string>
     <string name="txt38">Sobre la energía</string>
-
+    <string name="txt40">El lavaplatos vs computadora de escritorio</string>
+    <string name="txt41">El lavaplatos consume significativamente más electricidad que una computadora de escritorio. Aunque la
+        computadora consume electricidad para funcionar y posiblemente hacer funcionar muchos accesorios como el monitor, el módem
+        y el enrutador, hay dos grandes funciones de alto consumo de energía asociadas con el lavaplatos. </string>
+    <string name="txt42">Secadora de pelo vs ventilador de techo</string>
+    <string name="txt43">Algunos aparatos pequeños que consumen una gran cantidad de electricidad son la plancha y el microondas.
+        Esto se debe a la gran cantidad de energía necesaria para generar calor. Aunque el consumo de electricidad de estos dos
+        artículos es similar, el microondas consume más electricidad, ya que utiliza ondas de radio de alta frecuencia para calentar
+        las moléculas de agua.</string>
+    <string name="txt44">Te has preguntado cuántas veces cambias de celular sin que de verdad lo necesites o qué pasó con el computador
+        que descartaste ¿simplemente desapareció?, la realidad es que la producción y consumo acelerado de estos Aparatos Eléctricos y
+        Electrónicos (AEE) está generando un impacto negativo en nuestra salud y el medio ambiente.\n\nUna de las consecuencias más graves
+        de este aumento de dispositivos es la cantidad de basura que genera, conocida como residuos electrónicos. Estos residuos incluyen
+        todos los artículos de equipos eléctricos o electrónicos y sus partes que han sido descartados sin intención de ser reutilizados.
+Nuestro continente produce el 25,3% de los residuos electrónicos globales y Estados Unidos y Brasil son los mayores generadores de la región.
+        \n\nPara tener una idea sobre el destino de estos residuos en estos países: en el primero, solo el 22 por ciento de estos residuos se recogieron
+        y el paradero del 88% restante se desconoce. Una cifra alarmante si se tiene en cuenta el nocivo efecto que estos residuos tienen para nuestra
+        salud y la del planeta.\n\n\n\n\n\n<br />Fuente:<br /> BBVA, (s.f.). Electrodomésticos vs dispositivos eléctronicos. BBVA</string>
+    <string name="txt45">Lavadora e impresora</string>
+    <string name="txt46">La Lavadora mueve un motor, llena y bombea agua. Pero solo trabaja en ciclos cortos y la Impresora solo consume cuando imprimes.
+        En reposo casi no usa energía. Por eso la lavadora consume más.</string>
+    <string name="txt47">Refrigerador y bocina</string>
+    <string name="txt48">El Refrigerador, aunque parece poco, funciona las 24 horas del día. Por eso, al mes es de los que más cuestan y la Bocina transforma
+        energía en sonido, que requiere poca potencia.</string>
+    <string name="txt49">Boliter y máquina de cocer</string>
+    <string name="txt50">El Boiler al calentar agua necesita muchísima energía eléctrica. Es el que más consume de todos y la Maquina de coser mantiene calor
+        constante para cocer; generar calor siempre cuesta mucha energía.</string>
 </resources>

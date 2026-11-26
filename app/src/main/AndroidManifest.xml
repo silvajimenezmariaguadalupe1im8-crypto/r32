@@ -13,7 +13,7 @@
         android:theme="@style/Theme.R3">
         <activity
             android:name=".Articulo2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Articulo4"
             android:exported="true" />
