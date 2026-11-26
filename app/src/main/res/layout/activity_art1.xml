@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="16"
                     android:gravity="center"
-                    android:text="Artículos"
+                    android:text="@string/txt32"
                     android:textColor="#111111"
                     android:textSize="20sp"
                     android:layout_marginEnd="30dp"
@@ -78,7 +78,7 @@
                         android:orientation="vertical"
                         android:paddingTop="90dp"
                         android:paddingHorizontal="24dp"
-                        android:paddingBottom="450dp">
+                        android:paddingBottom="150dp">
 
                         <TextView
                             android:id="@+id/textView8"
@@ -169,6 +169,15 @@
                             android:layout_marginBottom="-20dp"
                             android:src="@drawable/boiler_mac" />
 
+                        <TextView
+                            android:id="@+id/textViewrebib"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="150dp"
+                            android:justificationMode="inter_word"
+                            android:text="@string/txt53"
+                            android:textSize="12sp"/>
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -222,7 +231,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Calculadora"
+                android:text="@string/txt29"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 
@@ -249,7 +258,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Inicio"
+                android:text="@string/txt30"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 
@@ -269,7 +278,6 @@
                 android:id="@+id/imcalendario"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:contentDescription="Calendario"
                 android:src="@drawable/calendario" />
 
             <TextView
@@ -277,7 +285,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Calculadora semanal"
+                android:text="@string/txt31"
                 android:textColor="#111111"
                 android:textSize="9sp" />
 

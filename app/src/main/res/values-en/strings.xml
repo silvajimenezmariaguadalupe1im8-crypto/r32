@@ -67,10 +67,10 @@
         new appliances or equipment, it is important to look for the energy efficiency label and opt for the most efficient models available.\n\n<br/>Source: <br/> BBVA. (n.d.). Carbon dioxide (CO2): what it is and why it worries us. BBVA.</string> //Antto
 
     <string name="txt35">Articles that might interest you...\nif you\'re a curious person</string>
-    <string name="txt36">Home Appliances vs. Electronics</string>
+    <string name="txt36">Home Appliances vs Electronics</string>
     <string name="txt37">How do I know when it\'s consumerism?</string>
     <string name="txt38">About energy</string>
-    <string name="txt40">Dishwasher vs. desktop computer</string>
+    <string name="txt40">Dishwasher vs desktop computer</string>
     <string name="txt41">The dishwasher consumes significantly more electricity than a desktop computer.
         Although a desktop computer uses electricity to run and possibly powers many accessories like the
         monitor, modem, or router, there are two major high-consumption functions and potential energy uses
@@ -89,9 +89,19 @@
         idea of the fate of this waste in these countries: in the first, only 22 percent of this waste is recycled, and
         the whereabouts of the remaining 88% are unknown. An alarming figure considering the harmful effect that these
         wastes have on people and the planet.\n\n\n\n\nSource: BBVA. (n.d.). Home appliances vs. electronic devices. BBVA.</string>
+    <string name="txt45">Washing machine and printer</string>
+    <string name="txt46">The washing machine runs a motor, fills up with water, and pumps it out. But it only operates in short cycles,
+        and the printer only uses power when you print. It uses almost no energy when idle. That\'s why the washing machine uses more energy.</string>
+    <string name="txt47">Refrigerator and speaker</string>
+    <string name="txt48">The refrigerator, though it may not seem like much, runs 24 hours a day. That\'s why it\'s one of the most expensive
+        appliances to run each month, while the speaker converts energy into sound, which requires very little power.</string>
+    <string name="txt49">Boliter and cooking machine</string>
+    <string name="txt50">The water heater uses a great deal of electricity to heat water. It consumes the most electricity of all, and the sewing
+        machine maintains a constant temperature for sewing; generating heat always takes a lot of energy.</string>
     <string name="txt51">Both appliances are small, and the hair dryer is used only for short periods of time, but in reality, the hair dryer
         uses much more electricity. For example, you would need to run your ceiling fan for more than 20 hours to use the same amount
         of electricity that the hair dryer uses in just a few minutes.</string>
-    <string name="txt52">Iron vs. Microwave</string>
+    <string name="txt52">Iron vs Microwave</string>
+    <string name="txt53">JDA Eléctricos, (s.f.). Home Appliances vs. Electronics. JDA Eléctricos</string>
 
 </resources>

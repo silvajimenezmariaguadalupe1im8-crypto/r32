@@ -133,4 +133,10 @@ Nuestro continente produce el 25,3% de los residuos electrónicos globales y Est
     <string name="txt49">Boliter y máquina de cocer</string>
     <string name="txt50">El Boiler al calentar agua necesita muchísima energía eléctrica. Es el que más consume de todos y la Maquina de coser mantiene calor
         constante para cocer; generar calor siempre cuesta mucha energía.</string>
+    <string name="txt51">Ambos aparatos son pequeños y el secador de cabello se utiliza solamente durante periodos cortos, pero en realidad, el secador de cabello
+        consume mucha más electricidad. Por ejemplo, necesitarías hacer funcionar tu ventilador de techo durante más de 20 horas para consumir la misma cantidad
+        de electricidad que el secador de cabello consume en solo unos pocos minutos</string>
+    <string name="txt52">Plancha vs microondas</string>
+    <string name="txt53">JDA Eléctricos, (s.f.). Electrodomésticos vs dispositivos eléctronicos. JDA Eléctricos</string>
+
 </resources>

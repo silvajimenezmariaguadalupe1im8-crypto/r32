@@ -142,14 +142,14 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="30dp"
                             android:justificationMode="inter_word"
-                            android:text="Ambos aparatos son pequeños y el secador de cabello se utiliza solamente durante periodos cortos, pero en realidad, el secador de cabello consume mucha más electricidad. Por ejemplo, necesitarías hacer funcionar tu ventilador de techo durante más de 20 horas para consumir la misma cantidad de electricidad que el secador de cabello consume en solo unos pocos minutos"
+                            android:text="@string/txt51"
                             android:textSize="12sp"/>
 
                         <TextView
                             android:id="@+id/textViewart5subtit"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Plancha vs microondas"
+                            android:text="@string/txt52"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="20dp"
                             android:textAlignment="center"
